@@ -1,0 +1,53 @@
+.Dishes {
+  background-color: #eeeeee;
+  text-align: center;
+}
+.dish-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.content-box {
+  background-color: white;
+  width: 320px;
+  height: 350px;
+  text-align: center;
+  padding-top: 0.3em;
+}
+img {
+  margin-top: 1em;
+  width: 180px;
+  height: 170px;
+}
+.text-box h1 {
+  font-size: 1.2em;
+  color: #192a56;
+}
+.icon {
+  color: #2eb165;
+}
+.price {
+  display: inline-block;
+}
+.price h1 {
+  font-size: 1em;
+  margin: 4px;
+  color: #2eb165;
+}
+
+.btn-dish {
+  background-color: #192a56;
+  color: white;
+  padding: 0.4rem 0.5rem;
+  font-size: 1em;
+  background: var(--black);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.btn-dish:hover {
+  background-color: #2eb165;
+  color: white;
+  letter-spacing: 0.1em;
+}

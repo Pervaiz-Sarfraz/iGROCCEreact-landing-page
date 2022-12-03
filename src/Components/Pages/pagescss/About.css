@@ -1,0 +1,45 @@
+.about {
+  background-color: #fff;
+}
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em;
+}
+.heading {
+  padding-top: 2em;
+}
+.col-1 {
+  width: 50%;
+}
+.col-1 img {
+  width: 400px;
+  height: 400px;
+}
+.col-2 {
+  margin: 50px;
+}
+.col-2 h1 {
+  color: #192a56;
+  margin: 12px;
+}
+.col-2 p {
+  color: gray;
+  margin: 8px;
+  font-size: 1em;
+  font-weight: 300;
+}
+.three-btn button {
+  padding: 17px 24px;
+  margin: 9px;
+  color: black;
+  font-size: 0.8em;
+  background-color: #eeeeee;
+  border-radius: 12px;
+}
+.three-btn i {
+  color: #2eb165;
+  margin-right: 8px;
+
+  font-size: 1.9em;
+}

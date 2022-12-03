@@ -1,0 +1,46 @@
+.Review {
+  background-color: #eeeeee;
+}
+.review-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.review-container {
+  margin: 12px;
+  background-color: white;
+  width: 350px;
+  height: 330px;
+  text-align: center;
+  border-radius: 12px;
+}
+.cols {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.col_1 img {
+  margin: 10px;
+  width: 70px;
+  height: 70px;
+}
+.col_2 {
+  margin: 10px;
+  color: #2eb165;
+}
+.col_2 h1 {
+  color: #192a56;
+  font-size: 0.9em;
+}
+.col_3 {
+  margin: 10px;
+  color: gray;
+  font-size: larger;
+}
+.para {
+  font-size: 0.7em;
+  line-height: 2em;
+  font-weight: 300;
+  padding: 1em 2em;
+  color: gray;
+}

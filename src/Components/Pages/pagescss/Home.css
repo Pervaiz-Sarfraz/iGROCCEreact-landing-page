@@ -1,0 +1,191 @@
+.home {
+  background-color: aliceblue;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  text-align: center;
+  margin-top: 60px;
+}
+.heading {
+  text-transform: capitalize;
+  font-size: 1em;
+}
+.heading span {
+  color: #2eb165;
+  font-size: 5rem;
+  font-weight: 800;
+}
+.heading h3 {
+  color: #192a56;
+  font-size: 3rem;
+}
+.content p {
+  color: gray;
+  font-size: 1rem;
+  padding: 1em 2.7em;
+}
+
+.btn-banner {
+  margin-top: 1rem;
+  display: inline-block;
+  background-color: #192a56;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  background: var(--black);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin: 20px;
+}
+.image img {
+  width: 600px;
+  height: 600px;
+}
+.heading span {
+  color: #2eb165;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+/* Dishes=====================================================
+=============================================================  */
+
+/* about us========================================================
+===================================================================*/
+/* review ======================================================================
+================================================================================*/
+
+/* order =======================================================================================
+========================================================================================================*/
+.order {
+  background-color: #eeeeee;
+  width: 100%;
+  padding: 22px;
+}
+
+form {
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+  padding: 1.5rem;
+  width: 100%;
+}
+.inputbox {
+  /* margin-top: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.label-input {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.col-div1 {
+  justify-content: space-between;
+  width: 50%;
+  padding: 12px 20px;
+}
+.col-div2 {
+  justify-content: space-between;
+  width: 50%;
+  padding: 12px 20px;
+}
+input {
+  display: inline-block;
+  padding: 1em 4em;
+  width: 100%;
+  border-radius: 12px;
+  background-color: #eeeeee;
+  color: gray;
+}
+textarea {
+  display: inline-block;
+  padding: 1em 4em;
+  border-radius: 12px;
+  background-color: #eeeeee;
+  color: gray;
+}
+label {
+  margin: 10px;
+}
+@media only screen and (max-width: 1260px) {
+  .banner {
+    flex-direction: column;
+  }
+  .image img {
+    max-width: 800px;
+    max-width: 800px;
+  }
+  .col-2 p {
+    font-size: 0.9em;
+  }
+  .dish-container {
+    align-items: center;
+  }
+  .review-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  /*  */
+}
+@media only screen and (max-width: 900px) {
+  .about-container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Dishes {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .order {
+    text-align: center;
+  }
+  .inputbox {
+    flex-direction: column;
+    align-items: center;
+  }
+  .col-div1 {
+    width: 100%;
+  }
+  .col-div2 {
+    width: 100%;
+  }
+  .label-input {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .dish-container {
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .banner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .image img {
+    max-width: 300px;
+    height: 300px;
+  }
+
+  .col-1 img {
+    display: none;
+  }
+  .heading h3 {
+    font-size: 2em;
+  }
+  .three-btn {
+    text-align: center;
+  }
+}
